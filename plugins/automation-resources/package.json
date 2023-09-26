@@ -27,8 +27,7 @@
     "sass": "^1.53.0",
     "svelte-check": "3.2.0",
     "svelte-loader": "^3.1.3",
-    "svelte-preprocess": "5.0.3",
-    "typescript": "^4.3.5"
+    "svelte-preprocess": "^4.10.7"
   },
   "dependencies": {
     "@hcengineering/automation": "^0.6.0",

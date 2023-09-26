@@ -9,6 +9,7 @@
     "types": ["heft-jest"],
     "skipLibCheck": true,
     "incremental": true,
+    "skipDefaultLibCheck": true,
     "declarationMap": true
   }
 }

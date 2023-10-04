@@ -23,6 +23,7 @@ export { default as StyledTextBox } from './components/StyledTextBox.svelte'
 export { default as StyledTextArea } from './components/StyledTextArea.svelte'
 export { default as StyledTextEditor } from './components/StyledTextEditor.svelte'
 export { default as TextEditor } from './components/TextEditor.svelte'
+export { default as TextEditorStyleToolbar } from './components/TextEditorStyleToolbar.svelte'
 export { default as FullDescriptionBox } from './components/FullDescriptionBox.svelte'
 export { default as CollaboratorEditor } from './components/CollaboratorEditor.svelte'
 export { default as CollaborationDiffViewer } from './components/CollaborationDiffViewer.svelte'
@@ -42,6 +43,12 @@ export {
   NodeHighlightType
 } from './components/extension/nodeHighlight'
 export { NodeUuidCommands, NodeUuidExtension, NodeUuidOptions, NodeUuidStorage } from './components/extension/nodeUuid'
+export { InlinePopupExtension } from './components/extension/inlinePopup'
+export {
+  InlineStyleToolbarExtension,
+  InlineStyleToolbarOptions,
+  InlineStyleToolbarStorage
+} from './components/extension/inlineStyleToolbar'
 
 addStringsLoader(textEditorId, async (lang: string) => {
   return await import(`../lang/${lang}.json`)
